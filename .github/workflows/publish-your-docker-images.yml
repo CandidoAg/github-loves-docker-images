@@ -34,7 +34,7 @@ jobs:
   #      context: tour-of-heroes-angular
 
   build-and-push-image:
-    needs: [analyze_dockerfile, analyze_image]    
+    # needs: [analyze_dockerfile, analyze_image]    
     runs-on: ubuntu-latest
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:
